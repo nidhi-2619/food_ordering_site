@@ -1,0 +1,189 @@
+/* FRont page css */
+
+.top {
+    font-family: alatsi;
+    font-size: 20px;
+    float: right;
+    border: none;
+    padding: 14px 25px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.top :hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+}
+
+.top :active {
+    background-color: rgb(141, 64, 64);
+    color: white;
+}
+
+p {
+    color: black;
+    font-family: Patrick Hand SC;
+    font-size: 50px;
+    margin-top: 0%;
+    float: left;
+    margin-left: 8px;
+}
+
+p::first-letter {
+    color: brown;
+    font-size: 60px;
+}
+
+.side-pic {
+    margin-left: 50px;
+    margin-top: 2cm;
+    animation: slides 15s infinite 0s;
+    width: 50vw;
+    height: 90vh;
+    -webkit-animation: slides 20s infinite 0s;
+    background-position: center;
+}
+
+@keyframes slides {
+    0% {
+        background-image: url('semur.jpg');
+    }
+    20% {
+        background-image: url('Spaghetti\ alla\ Puttanesca\ _\ Chef\ Sous\ Chef.jpg');
+    }
+    40% {
+        background-image: url('ratatouille-pasta-13.jpg');
+    }
+    60% {
+        background-image: url('Drinks/Drink.jpg');
+    }
+    80% {
+        background-image: url('burgers/32076664aca03b56a25b64c29b360698.jpg');
+    }
+    100% {
+        background-image: url('pizza/a2df67a8-62fe-4be7-a429-c4570ee9b35b.jpg');
+    }
+}
+
+.side-pic div {
+    width: 50vw;
+    height: 600vh;
+}
+
+.login {
+    border: none;
+    cursor: pointer;
+    padding: 14px 25px;
+    font-size: 20px;
+    float: right;
+    color: black;
+    /* background-color:rgba(231, 184, 66, 0.959); */
+    font-family: alatsi;
+    background-color: white;
+}
+
+.login:active {
+    color: rgb(219, 130, 27);
+}
+
+.login:hover {
+    color: rgb(219, 130, 27);
+}
+
+#fix {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    margin-top: -2cm;
+    height: 2cm;
+}
+
+#slogan>p {
+    margin-right: 100px;
+    margin-top: -10cm;
+    font-size: 70px;
+    float: right;
+    animation: 1s ease-in-out 0s 1 backwards alternate slidein;
+    -webkit-animation: 1s ease-in-out 0s 1 backwards alternate slidein;
+}
+
+#slogan>p::first-letter {
+    font-size: 100px;
+}
+
+.onclick {
+    padding: 10px 30px;
+    font-size: 30px;
+    font-family: Patrick Hand SC;
+    background-color: rgba(220, 20, 60, 0.733);
+    float: left;
+    margin-left: 773px;
+    margin-top: -223px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.onclick:hover {
+    background-color: crimson;
+    box-shadow: 1px 2px 20px rgba(233, 47, 84, 0.733);
+    animation: butn 2s ease-in-out infinite alternate-reverse -2s;
+    -webkit-animation: butn 2s ease-in-out infinite alternate-reverse -2s;
+}
+
+@keyframes butn {
+    from {
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+    to {
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-right: -50px;
+    }
+    to {
+        margin-left: 40px;
+    }
+}
+
+footer {
+    background-color: black;
+    display: inline;
+    display: flex;
+    align-content: flex-end;
+    height: 300px;
+    color: white;
+    font-size: 12pt;
+}
+
+.footer {
+    margin-top: 200px;
+    margin-left: -179px;
+}
+
+.icons {
+    height: 26px;
+    margin: 12px;
+}
+
+h1 {
+    font-family: 'Alegreya Sans SC';
+    margin: 30px;
+    border-bottom-color: aliceblue;
+    border-bottom-width: 2px;
+}

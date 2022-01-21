@@ -1,0 +1,64 @@
+body,
+html {
+    height: 100%;
+    background-color: rgb(1, 17, 17);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 400px;
+    opacity: 0.8;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: transform .4s;
+    -webkit-transition: transform .4s;
+    -moz-transition: transform .4s;
+    -ms-transition: transform .4s;
+    -o-transition: transform .4s;
+}
+
+a {
+    width: 27%;
+    margin-bottom: -8%;
+    margin-top: 15%;
+    text-decoration: none;
+}
+
+img:hover {
+    opacity: 1;
+    box-shadow: 1px 1px 40px rgba(245, 245, 245, 0.384);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+p {
+    display: inline;
+    margin: auto;
+    font-size: 25px;
+    padding: 1px 6px;
+    font-family: 'Alegreya Sans SC';
+    background-color: rgba(111, 130, 0, 0.493);
+    color: beige;
+}
+
+.header {
+    background-image: url('Beed\ burgers\ with\ crispy\ bacon.jpg');
+    background-repeat: no-repeat;
+    height: 898px;
+    width: 13in;
+    background-size: auto;
+    margin-top: -200px;
+    opacity: 0.6;
+}

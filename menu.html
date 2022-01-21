@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Righteous&family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Allison' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="image">
+        <ul class="navbar">
+            <i class="fa fa-bars "></i>
+            <li>Contact Us</li>
+            <li>About Us</li>
+            <li>Home</li>
+        </ul>
+
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()"></button>
+    </div>
+
+    <div class=toptable> Welcome to Twerksberry
+        <p>Eat what makes you happy </p>
+    </div>
+    <div class=" bg2 ">
+
+
+        <section>
+            <a href="Beverages.html "><img src="Drinks\Strawberry Lemonade Spritzer.jpg "> </a>
+            <a href="Cravings.html "><img src="8b18df99e801d829509b808072026b44.jpg "></a>
+            <a href="south indian.html "><img src="south indian\dcb4d7db-a7e7-4139-8ef6-5289c6f06829.jpg "></a>
+            <a href="Noodles.html "><img src="chinese/a3c95e1042e091419f5dc12f29e17231.jpg "></a>
+            <a href="burgers.html "><img src="burgers/32076664aca03b56a25b64c29b360698.jpg "></a>
+            <a href="Pizza.html "><img src="pizza/a2df67a8-62fe-4be7-a429-c4570ee9b35b.jpg "></a>
+
+        </section>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+</body>
+
+</html>
